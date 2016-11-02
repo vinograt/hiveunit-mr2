@@ -10,6 +10,13 @@
 
 	<repositories>
 		<repository>
+			<id>central</id>
+			<url>https://repo1.maven.org/maven2/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+		<repository>
 			<id>cloudera-repo</id>
 			<name>Cloudera repository</name>
 			<url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
@@ -17,8 +24,8 @@
 	</repositories>
 
 	<properties>
-		<hive.version>1.1.0-cdh5.8.2</hive.version>
-		<hadoop.version>2.6.0</hadoop.version>
+		<hive.version>1.1.0-cdh5.7.2</hive.version>
+		<hadoop.version>2.6.0-cdh5.7.2</hadoop.version>
 	</properties>
 
 	<dependencies>
